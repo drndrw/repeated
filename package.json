@@ -4,13 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build:docker": "docker build google_repeater .",
+    "build:docker": "docker build -t google_repeater .",
     "start:docker": "docker run -p 80:3000 google_repeater"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dialogflow": "^0.7.0",
+    "body-parser": "^1.18.3",
     "express": "^4.16.4"
   }
 }
