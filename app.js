@@ -18,7 +18,8 @@ app.post('/google', jsonParser, (req, res) => {
           "items": [
             {
               "simpleResponse": {
-                "textToSpeech": "hey dude"
+                "textToSpeech": "hey dude",
+                "displayText": "Hello there! How's it hanging"
               }
             }
           ]
