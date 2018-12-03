@@ -4,11 +4,13 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:docker": "docker build google_repeater .",
+    "start:docker": "docker run -p 80:3000 google_repeater"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dialogflow": "^0.7.0",
     "express": "^4.16.4"
   }
 }
